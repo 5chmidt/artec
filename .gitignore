@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/scanning-and-process/bin-x64
+/scanning-and-process/~Debug-x64-scanning-and-process-sample/scanning.F70B27B0.tlog
