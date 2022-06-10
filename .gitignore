@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /scanning-and-process/bin-x64
 /scanning-and-process/~Debug-x64-scanning-and-process-sample/scanning.F70B27B0.tlog
+/project-sample/bin-x64
+/project-sample/~Debug-x64-project-sample/project-sample.tlog
