@@ -4,7 +4,7 @@
     <ProjectGuid>{1FA71EE5-3E26-4F01-89E2-F73A5D100E3E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>project-sample</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(SolutionDir)\PlatformToolset.props" Condition="exists('$(SolutionDir)\PlatformToolset.props')" />

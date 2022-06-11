@@ -27,6 +27,7 @@
 
 #include <stdlib.h>
 
+
 using namespace artec::sdk;
 
 std::wstring stringToWString(const std::string& src)
@@ -49,7 +50,8 @@ int main(int argc, char** argv)
     base::TRef<base::IModel> srcModel;
     if (project::openProject(&srcProject, srcProjectPath.c_str()) != base::ErrorCode_OK)
     {
-        std::cout << "Failed to open file.";
+        std::cout << "Failed to open file: ";
+        std::cout << argv[1];
     }
 
     return 0;
