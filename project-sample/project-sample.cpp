@@ -3,25 +3,12 @@
 #endif // _MSC_VER 
 
 #include <artec/sdk/project/IProject.h>
-#include <artec/sdk/project/EntryInfo.h>
 #include <artec/sdk/project/ProjectSettings.h>
 #include <artec/sdk/project/ProjectLoaderSettings.h>
 #include <artec/sdk/project/ProjectSaverSettings.h>
-#include <artec/sdk/algorithms/Algorithms.h>
-#include <artec/sdk/algorithms/IAlgorithm.h>
 #include <artec/sdk/base/IModel.h>
-#include <artec/sdk/base/IScan.h>
-#include <artec/sdk/base/IFrameMesh.h>
-#include <artec/sdk/base/ICompositeContainer.h>
-#include <artec/sdk/base/ICompositeMesh.h>
-#include <artec/sdk/base/AlgorithmWorkset.h>
-#include <artec/sdk/base/IProgressInfo.h>
-#include <artec/sdk/base/IJobObserver.h>
-#include <artec/sdk/base/IJob.h>
 #include <artec/sdk/base/TRef.h>
-#include <artec/sdk/base/IArray.h>
 
-#include <iomanip>
 #include <iostream>
 #include <string>
 
